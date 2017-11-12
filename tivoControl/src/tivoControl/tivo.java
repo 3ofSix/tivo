@@ -11,10 +11,17 @@ import java.net.*;
  * "tivo-cmd"
  * 
  * eg java -Dtivo-cmd="SETCHANNEL" -jar tivo.jar
+ * 
  *
  */
-public class tivo {
 
+public class tivo {
+	
+
+	/**
+	 * @param args "tivo command" and "command argument" eg SETCH 150
+	 * @throws IOException
+	 */
 	public static void main(String[] args) throws IOException {
 
 		//New Socket
