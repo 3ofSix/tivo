@@ -26,7 +26,7 @@ public class tivo {
 
 		//New Socket
 		Socket s = new Socket();
-		String host = "192.168.0.8";
+		String host = "192.168.0.150";
 		PrintWriter s_out = null;
 		BufferedReader s_in = null;
 		// System property/variable passed from command line
